@@ -1,0 +1,36 @@
+@import url("reset-style.css");
+
+body {
+    background-color: rgb(215, 188, 240);
+    font-family: Georgia, "Times New Roman", serif
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.header-btn {
+    font-size: 30px;
+    border-radius: 20px;
+    border: black 1px solid;
+    padding: 15px;
+    ;
+}
+
+.cards-container {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 600px;
+    margin: 0 auto;
+}
+
+.card {
+
+    aspect-ratio: 3 / 4;
+    border: 1px solid black;
+
+}
